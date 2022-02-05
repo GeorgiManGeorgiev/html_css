@@ -1,0 +1,12 @@
+
+li{
+    border-width: 0.4rem;
+    border-color: black;
+    border: solid;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+

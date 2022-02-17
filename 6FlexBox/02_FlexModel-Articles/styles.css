@@ -1,42 +1,26 @@
 @import url(./reset.css);
 
-body {
-
-display: flex;
-flex-wrap: wrap;
-padding: 2rem;
-gap: 1rem;
-
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-header,
-main,
-aside,
-footer {
-  background-color: lightgreen;
-  padding: 2rem;
-  border-radius: 8px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 50px auto;
 }
 
-header {
-    flex: 1 1 100vw;
-    border: 1px solid;
+article {
+    margin: 0 30px;
 }
 
-main {
-    
-    flex: 1 1 65vw;
-    border: 1px solid;
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
 }
-
-aside{
-    flex: 1 1 25vw;
-    border: 1px solid;
-}
-
-footer{
-    flex: 1 1 100vw;
-    border: 1px solid;
-
-}
+  
+ 
 

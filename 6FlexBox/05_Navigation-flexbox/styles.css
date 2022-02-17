@@ -1,0 +1,66 @@
+@import url(./reset.css);
+
+html {
+  /* box-sizing: border-box; */
+}
+
+body {
+  padding: 50px;
+}
+
+
+body>header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+body>header nav {
+  display: flex;
+  align-self: center;
+}
+
+
+
+body>header nav ul{
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1;
+  list-style: none;
+}
+
+
+
+
+body>header h1 {
+  text-transform: uppercase;
+}
+
+header li:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+
+
+.firstheader {
+  color: black;
+  width: 400px;
+}
+
+
+
+h1 {
+  font-size: large;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
+}

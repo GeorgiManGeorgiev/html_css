@@ -1,0 +1,88 @@
+@media all and (max-width: 600px) {
+    .banner h2 {
+        width: 93%;
+    }
+
+    ul.actions li {
+        width: 100%;
+    }
+
+    .banner .button.special {
+        width: 93%;
+    }
+
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    header h2 {
+        width: 86%;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .feature {
+        width: 92%;
+        margin-left: 4%;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 2em 0 1em 0;
+    }
+
+    .inner.narrow header h2 {
+        width: 38%;
+    }
+
+    .grid-form {
+        display: block;
+    }
+
+    .grid-form .form-control {
+        width: 92%;
+        margin-bottom: 1em;
+        margin-left: 4%;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 92%;
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 92%;
+        margin-top: 12px;
+    }
+
+    .footer:before {
+        height: 2px;
+        left: 11%;
+        width: 79%;
+    }
+
+    .footer {
+        padding: 1em 0 0em 0;
+    }
+
+    .banner {
+        padding: 3em 0 1em 0;
+    }
+
+    form {
+        margin: 0px 0 1em 0;
+    }
+
+    header.major {
+        margin-bottom: 1em;
+    }
+
+    .footer .copyright {
+        margin: 0 0 0em 0;
+        padding-bottom: 2em;
+    }
+}

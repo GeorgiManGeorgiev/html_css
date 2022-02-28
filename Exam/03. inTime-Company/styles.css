@@ -6,7 +6,7 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
-mark {
+.hero  mark{
   background-color: white;
   color: #2da2b5;
 }

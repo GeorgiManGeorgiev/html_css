@@ -52,17 +52,15 @@ body > main > section.hero > nav > ul > li:nth-child(1) > a {
   background-image: url(./images/slide2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .promote .square {
   background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
+  display: inline-block;
   color: white;
-  top: 26vh;
-  left: 14vw;
-  height: 31vh;
-  width: 37vw;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 40%;
   padding: 1rem;
 }
 
@@ -144,27 +142,24 @@ body > main > section.hero > nav > ul > li:nth-child(1) > a {
   background-size: contain;
   border-radius: 9px;
   background-color: white;
- text-align: center;
+  text-align: center;
 }
 
 .card img {
   background-size: cover;
   background-repeat: no-repeat;
- 
 }
 .card h3 {
- font-size: 21px;
- margin-top: 1rem;
- margin-bottom: 1rem;
+  font-size: 21px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.card p{
+.card p {
   padding: 2rem;
 }
 
-
-.card button{
- 
+.card button {
   background-color: #454545;
   border-radius: 5px;
   color: white;
@@ -172,19 +167,15 @@ body > main > section.hero > nav > ul > li:nth-child(1) > a {
   border: none;
   padding: 11px;
   font-size: 13px;
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-
 .subscribe {
-
   width: 100%;
   height: 350px;
-  background-color: #393f43 ;
+  background-color: #393f43;
   display: flex;
   flex-direction: column;
-
-
 }
 /* .line {
   content: '';

@@ -1,0 +1,119 @@
+@import url("https://fonts.google.com/specimen/PT+Serif");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("reset.css");
+
+html {
+  font-family: "PT Serif", serif;
+  
+  
+}
+
+
+
+
+ 
+.recipe {
+    height: 440px;
+    width: 900px;
+    border-radius: 4px;
+    background-image: url(./image/image1.png);
+    background-repeat: repeat-y;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+  
+  }
+
+
+  .first_section  {
+   width: 350px;
+    
+  }
+  
+
+
+.first_section h2 {
+  width: 350px;
+  padding-bottom: 0.3rem;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px #389c38 dotted;
+  
+}
+
+.container{
+  width: 350px;
+  display: flex;
+  font-style: italic;
+  justify-content: space-between;
+}
+
+.first_section {
+  padding: 1.5rem;
+    align-self: top;
+    font-size: 16px;
+  }
+
+  .serves ,
+  .time {
+    padding-top: 0.5rem;
+  font-size: 15px;
+  }
+
+  .ingredients {
+padding: 2rem 0;
+  }
+
+  .ingredient {
+    padding: 0.5rem 0;
+  }
+
+  mark{
+    color: #389c38;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  p {
+    width: 350px;
+    text-align: left;
+    line-height: 1.3rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .Table {
+    margin-top: 1.25rem;
+  }
+
+  table.Table {
+    width: 350px;
+    border-collapse: collapse;
+    border-width: 1px;
+    text-align: center;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.Table td, table.Table th {
+    border-width: 1px;
+    border-color: #389c38;
+    border-style: solid;
+  }
+  
+  table.Table thead {
+   font-weight: bold;
+  }
+  .img_container {
+
+    margin: 1.5rem;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/kiwi-smoothie.jpg);
+    
+   
+  }
